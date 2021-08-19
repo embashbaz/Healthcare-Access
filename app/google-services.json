@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463336960425",
+    "project_id": "health-access",
+    "storage_bucket": "health-access.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463336960425:android:4db422381c0e36b6f614b8",
+        "android_client_info": {
+          "package_name": "com.example.yourmeduser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463336960425-32m0tic0m8aqi2ukr51coo6aref1ikqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa5u21G0h68sWBuSyh1f_n11wQsPkLB5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463336960425-32m0tic0m8aqi2ukr51coo6aref1ikqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
