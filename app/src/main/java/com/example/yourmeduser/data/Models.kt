@@ -44,3 +44,12 @@ data class Medicine(
     var price: Double = 0.0,
     var provider: CareAdmin? = null
 ): Parcelable
+
+data class QueryResults(
+    var status: String = "",
+    var statusValue: String = "",
+    var medicines: MutableList<Medicine> = emptyList<Medicine>() as MutableList<Medicine>,
+    var services: MutableList<Service> = emptyList<Service>() as MutableList<Service>
+
+
+)
