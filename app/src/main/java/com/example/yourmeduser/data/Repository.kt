@@ -7,7 +7,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QuerySnapshot
 
-class Repository {var mFirebaseAuth: FirebaseAuth
+class Repository {
+
+    var mFirebaseAuth: FirebaseAuth
     var mFirebaseDb : FirebaseFirestore
     // var mFirebaseStore: FirebaseStorage
 
