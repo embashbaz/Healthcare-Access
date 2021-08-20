@@ -56,6 +56,7 @@ data class InDemand(
     var indemandContact :MutableList<String> = emptyList<String>() as MutableList<String>
 )
 
+@Parcelize
 data class QueryResults(
     var status: String = "",
     var statusValue: String = "",
@@ -63,4 +64,4 @@ data class QueryResults(
     var services: MutableList<Service> = emptyList<Service>() as MutableList<Service>
 
 
-)
+): Parcelable
