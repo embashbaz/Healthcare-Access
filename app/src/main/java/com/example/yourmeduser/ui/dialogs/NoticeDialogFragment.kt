@@ -7,11 +7,12 @@ import android.content.DialogInterface
 import android.os.Bundle
 import androidx.fragment.app.DialogFragment
 
-class NoticeDialogFragment(message: String, positiveText: String) : DialogFragment() {
+class NoticeDialogFragment(code: Int, message: String, positiveText: String) : DialogFragment() {
     // Use this instance of the interface to deliver action events
     internal lateinit var listener: NoticeDialogListener
     val mMessage = message
     val positiveText = positiveText
+    val CODE = code
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity?.let {
