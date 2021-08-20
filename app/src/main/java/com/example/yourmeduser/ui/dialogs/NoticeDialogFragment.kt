@@ -6,7 +6,6 @@ import android.content.Context
 import android.content.DialogInterface
 import android.os.Bundle
 import androidx.fragment.app.DialogFragment
-import com.example.shopkeeperapp.ui.productDetail.ItemsQuantityDialog
 
 class NoticeDialogFragment(message: String, positiveText: String) : DialogFragment() {
     // Use this instance of the interface to deliver action events
@@ -44,7 +43,7 @@ class NoticeDialogFragment(message: String, positiveText: String) : DialogFragme
 
     interface NoticeDialogListener {
         fun onDialogPositiveClick(dialog: DialogFragment){ }
-        fun onDialogNegativeClick(dialog: DialogFragment)
+
     }
 
 
