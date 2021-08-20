@@ -36,7 +36,6 @@ class Repository {
                     myResults.statusValue = "success"
                     for (snapshot in it) {
                         val service = snapshot.toObject(Service::class.java)
-
                         myResults.services.add(service)
 
                     }
