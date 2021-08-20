@@ -45,6 +45,17 @@ data class Medicine(
     var provider: CareAdmin? = null
 ): Parcelable
 
+data class InDemand(
+    var numberRequest: Int = 0,
+    var docId: String = "",
+    var serviceName: String = "",
+    var countyName: String = "",
+    var countryName: String = "",
+    var status: Int = 1,
+    var indemandDeviceId: MutableList<String> = emptyList<String>() as MutableList<String>,
+    var indemandContact :MutableList<String> = emptyList<String>() as MutableList<String>
+)
+
 data class QueryResults(
     var status: String = "",
     var statusValue: String = "",
